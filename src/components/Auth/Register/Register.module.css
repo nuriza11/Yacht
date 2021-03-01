@@ -1,0 +1,23 @@
+.form{
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+    margin: 50px auto;
+    border: 3px solid #192c55;
+    /* border-style: solid black; */
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form button{
+    width: 160px;
+    align-self: flex-end;
+    background-color: #1f335f;
+    
+}
+
+.form h1{
+   text-align: center;
+}

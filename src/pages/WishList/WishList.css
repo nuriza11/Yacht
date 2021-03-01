@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+.wish-main{
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-family: 'Shippori Mincho', serif;
+    
+}
+.title{
+  width: 100%;
+}
+.wish-main h5{
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.favorite{
+  text-align: center;
+  font-family: 'Shippori Mincho', serif;
+  padding: 50px 0;
+}
+.wish-card{
+  margin: 20px;
+  /* border-radius: 10px; */
+  width: 300px;
+  height: 400px;
+  /* border: 1px solid; */
+  display: flex;
+  box-shadow: 3px 3px 15px 5px rgba(87, 86, 86, 0.301);
+  align-items:center;
+  flex-direction: column;
+  justify-content: space-around;
+}   
+.wish-card:hover{
+  box-shadow: 3px 3px 15px 5px rgba(0,0,0,0.58);
+}
+.wish-img img{
+  width: 280px;
+  height: 115px;
+}
+.wish-desc{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button{
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: red;
+  color: white
+}
+.empty-wishlist {
+  margin: 0 auto;
+  background: url(../../assets/Images/empty-wishlist.jpg) no-repeat center /cover;
+  width: 300px;
+  height: 450px;
+}
+
+@media screen and (max-width:768px) {
+  .favorite{
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .favorite{
+    font-size: 25px;
+    padding: 15px 0 0;
+  }
+}

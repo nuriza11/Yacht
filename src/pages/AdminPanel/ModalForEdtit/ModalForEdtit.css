@@ -1,0 +1,32 @@
+.edit-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 10;
+}
+.admin-product__edit {
+  margin-top: 80px;
+}
+.admin-product__item-edit {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;  
+  align-items: center;  
+}
+.admin-product__item-edit span {
+  font-size: 15px;
+}
+
+.admin-product__item-edit input {
+  border:1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  height: 25px;
+}

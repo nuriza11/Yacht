@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+.charter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    font-family: 'Shippori Mincho', serif;
+}
+.charter-img{
+    background: url('https://s1.1zoom.me/b4652/594/Croatia_Coast_Houses_Castles_Dubrovnik_Crag_553910_1920x1080.jpg') no-repeat center center;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.65);
+    /* max-width: 500px; */
+}
+.charter-img1{
+    background: url('https://look.com.ua/pic/201209/1920x1080/look.com.ua-46123.jpg') no-repeat center center;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.65);
+    /* max-width: 500px; */
+}
+.charter-img2{
+    background: url('https://s2.files.enjourney.ru/upload/5b4150fb7dd85022789fed7b6672ca71/1920x0/1e29448bbb63f81c56279bbbba07ac8c.jpg') no-repeat center center;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.65);
+    /* max-width: 500px; */
+}
+.charter-desc{
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.title-charter{
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    margin-top: 30px;
+}
+@media all and (max-width: 500px){
+    .charter-img{
+        width: 300px;
+        height: 250px;
+    }
+    .charter-img1{
+        width: 300px;
+        height: 250px;
+    }
+    .charter-img2{
+        width: 300px;
+        height: 250px;
+    }
+    .charter-desc{
+        font-size: 15px;
+        height: 250px;
+    }
+}

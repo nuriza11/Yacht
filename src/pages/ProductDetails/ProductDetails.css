@@ -1,0 +1,129 @@
+.details-section__inner {
+  display: flex;
+  margin-top: 50px;
+  padding: 0 10px;
+	flex-wrap: wrap;
+}
+.carousel-inner {
+  max-width: 770px;
+}
+.carousel-item {
+	max-height: 500px;
+	height: 100%;
+}
+.details-description {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.details-description__title {
+	text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+.details-description__inner {
+	font-size: 15px;
+}
+.detail-all {
+	display: flex;
+	justify-content: space-between;
+}
+.detail-all p {
+	letter-spacing: 5px;
+}
+.details-description__price {
+	text-align: center;
+	font-size: 25px;
+}
+.details-description__end {
+	margin-left: 35px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	width: 150px;
+}
+.details-description__end span {
+	cursor: pointer;
+	padding: 10px;
+	border: 1px solid black;
+}
+.details-description__end span:first-child {
+	margin-bottom: 10px;
+}
+.back-link {
+  margin: 25px 0;
+  text-align: center;
+}
+.back-icon {
+	width: 27px;
+}
+.back-link a {
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+.back-link a:hover {
+	color: black;
+	transition: .3s ease-in-out;
+	text-decoration: none;
+}
+
+/* MEDIA */
+@media screen and (max-width:1024px) {
+  .details-section__inner {
+		margin-top: 20px;
+		justify-content: center;
+	}
+	.details-description {
+		margin-top: 25px;
+	}
+	.details-description__title {
+		margin-bottom: 20px;
+	}
+	.details-description__price {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width:768px) {
+	.details-description {
+		padding-left: 0px;
+	}
+	.carousel-item {
+		max-height: 480px;
+		height: 100%;
+	}
+	.details-description__end {
+		margin-left: 25px;
+	}
+}
+@media screen and (max-width:425px) {
+	.details-description {
+		padding-left: 0px;
+	}
+	.details-description__title {
+		font-weight: 500;
+		font-size: 25px;
+	}
+	.details-description__inner {
+		font-size: 12px;
+	}
+	.details-description__end {
+		margin-left: 22px;
+	}
+	.carousel-item {
+		max-height: 258px;
+		height: 100%;
+	}
+}
+@media screen and (max-width:320px) {
+	.carousel-item {
+		max-height: 188px;
+		height: 100%;
+	}
+	.details-description__end {
+		margin-left: 10px;
+	}
+}

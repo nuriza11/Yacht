@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+footer{
+  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% ) !important;
+  /* background: #0e233a; */
+  /* margin-top: 20px; */
+  color: white;
+  font-family: 'Shippori Mincho', serif;
+  /* padding: 40px; */
+	background: url(../../assets/Images/footerbg.jpg) no-repeat center /cover;
+} /*фон подвала */
+.social-icons ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.social-icons ul li a span {
+  color:white;
+  width: 34px;
+  background: #fff;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 20px;
+  font-size: 13px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 2px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  text-decoration: none;
+}
+.social-icons ul li a :hover{
+  color:#0ccbf1;
+}
+.copy-bottom-txt p{
+  font-size:15px;
+  color:white;
+}
+.social-icons ul li:nth-child(2){
+  margin: 0 10px;
+}
+.copy-bottom-txt p a {
+  font-size: 18px;
+  color:#000;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+.copy-bottom-txt p a:hover {
+  color: #000;
+  text-decoration: underline;
+  padding-top: 4px;
+  font-weight: 700;
+}
+.footer-link__home {
+  text-decoration: none !important;
+  color: white;
+}
+.footer-link__home:hover {
+  color: red !important;
+}
+.footer-link__buy {
+  text-decoration: none !important;
+  color: white;
+}
+.footer-link__buy:hover {
+  color: red !important;
+}
+@media all and (max-width: 768px){
+  footer{
+      margin-top: 120px;
+  }
+}
+@media all and (max-width: 500px){
+  footer{
+      margin-top: 0;
+  }
+}
+@media all and (max-width: 425px){
+  .py-3 h3 {
+    font-size: 25px !important;
+  }
+  ul li {
+    font-size: 20px !important;
+  }
+  .social-icons p {
+    display: none;
+  }
+}
+
+@media all and (max-width: 320px){
+  .copy-bottom-txt h3 {
+    display: none !important;
+  }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+.central-section {
+	margin-top: 200px;
+	background: url(../../assets/Images/central-sectionGg.jpg) no-repeat center /contain;	
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 50px;
+  font-family: 'Shippori Mincho', serif;
+}
+.body-img{
+  margin: 20px;
+}
+.body-img img{
+  max-height: 600px;
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  height:300px;
+  margin: 20px;
+  text-align: left;
+}
+.desc p {
+  color: black;
+}
+.desc a {
+  text-decoration: none !important;
+}
+.desc a:hover {
+  text-decoration: none !important;
+  transform: scale(1.05);
+  transition: .4s ease-in-out;
+  font-weight: 700;
+}
+.central-item {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  height:300px;
+  margin: 20px;
+  text-align: left;
+  color: white;
+}
+.desc a{
+  margin-top: 30px;
+}
+.body img{
+  max-width: 450px;
+  box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.65);
+}
+
+
+@media all and (max-width:1024px){
+  .central-section {
+    background: none;
+  }
+  .central-item {
+    color: black;
+  }
+}
+@media all and (max-width:768px){
+  .desc h1 {
+    font-size: 30px;
+  }
+  .central-item h1 {
+    font-size: 30px;
+  }
+  .central-item {
+    height: auto;
+  }
+  .container {
+    margin-top: 0;
+    height: 890px;
+  }
+}
+@media all and (max-width:700px){
+  .body img{
+      width: 250px;
+      height: 300px;
+    }
+}
+
+@media all and (max-width:425px){
+  .central-section {
+    margin-top: 50px;
+  }
+  .container {
+    height: 650px;
+  }
+  .desc h1 {
+    font-size: 25px;
+  }
+  .central-item h1 {
+    font-size: 25px;
+  }
+  .desc span {
+    font-size: 17px;
+  }
+}
+
+@media all and (max-width:320px){
+  .desc h1 {
+    font-size: 18px;
+  }
+  .central-item h1 {
+    font-size: 18px;
+  }
+  .desc span {
+    font-size: 15px;
+  }
+  .container {
+    height: 600px;
+  }
+}
